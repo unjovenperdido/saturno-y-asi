@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mundo Saturno</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at bottom, #0a0a23 0%, #000 100%);
+      font-family: Arial, sans-serif;
+      color: #f0f0f0;
+      overflow-x: hidden;
+    }
+
+    /* Fondo de estrellas animadas */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(#999 1px, transparent 1px) 0 0 / 3px 3px,
+                  radial-gradient(#777 1px, transparent 1px) 50px 50px / 4px 4px;
+      animation: moverEstrellas 80s linear infinite;
+      z-index: -1;
+      opacity: 0.2;
+    }
+
+    @keyframes moverEstrellas {
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(-500px, 500px); }
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+      background: rgba(17, 17, 51, 0.8);
+    }
+
+    header img {
+      width: 150px;
+    }
+
+    h1 {
+      color: #e0e0ff;
+      margin: 10px 0;
+      font-size: 2.5em;
+    }
+
+    .banner {
+      background: url('img/saturno-banner.png') no-repeat center/cover;
+      height: 250px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: rgba(17, 17, 51, 0.7);
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #aaccff;
+      border-bottom: 2px solid #555;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    p, ul {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+
+    footer {
+      background: rgba(17, 17, 51, 0.8);
+      text-align: center;
+      color: #888;
+      padding: 20px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="watercolor-planetarium-banner-telescope-saturn-cosmic-space-concept-astronomy-stargazing-celestial-exploration-370899384.webp" alt="Saturno">
+    <h1>Mundo Saturno</h1>
+  </header>
+
+  <div class="banner"></div>
+
+  <section>
+    <h2>🌌 ¿Qué es Saturno?</h2>
+    <p>
+      Saturno es el sexto planeta del Sistema Solar y el segundo más grande, conocido por sus impresionantes anillos compuestos de hielo y polvo.
+      Su atmósfera, mayormente hidrógeno y helio, y sus 146 lunas incluyen a Titán, famosa por sus lagos de metano.
+    </p>
+      <img src="outer-space-galaxy-abstract-background-with-saturn-planet-stars-and-meteor-shower-solar-system-space-object-planet-saturn-illustration-on-dark-background-vector.jpg" alt="Saturno real" style="width: 100%; border-radius: 8px; margin: 15px 0;">
+  </section>
+
+  <section>
+    <h2>🎵 Canciones que mencionan a Saturno</h2>
+    <ul>
+      <li><strong>"Saturn"</strong> – <em>Stevie Wonder</em>: Reflexión sobre el estado del mundo.</li>
+      <li><strong>"Saturnz Barz"</strong> – <em>Gorillaz</em>: Estética oscura y vibrante.</li>
+      <li><strong>"Drops of Saturn"</strong> – <em>SayWeCanFly</em>: Balada indie y melancólica.</li>
+    </ul>
+     <img src="saturn-planet-bright-abstract-illustration-space-theme-art-background-MBAJ0F.jpg" alt="Música espacial" style="width: 70%; display: block; margin: 15px auto; border-radius: 10px;">
+  </section>
+
+  <section>
+    <h2>🎬 Películas que incluyen a Saturno</h2>
+    <ul>
+      <li><strong>Interstellar</strong> (2014): Viaje espacial cerca de Saturno.</li>
+      <li><strong>2001: Odisea del espacio</strong> (1968): En la novela el destino es Saturno.</li>
+      <li><strong>Saturn 3</strong> (1980): Thriller de ciencia ficción en una estación saturnina.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>✨ Datos curiosos</h2>
+    <ul>
+      <li>Un día en Saturno dura aproximadamente <strong>10 h 33 min</strong>.</li>
+      <li>Sus anillos pueden verse con telescopios caseros.</li>
+      <li>Es tan ligero que flotaría en un océano gigante hipotético.</li>
+      <li>La misión Cassini concluyó el 15 septiembre 2017, adentrándose en su atmósfera.</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Mundo Saturno. Diseñado por Brian.
+  </footer>
+
+</body>
+</html>
